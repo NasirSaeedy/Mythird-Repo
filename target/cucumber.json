@@ -1,0 +1,167 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-25T15:43:53.139Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6891617300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Initializer.beforHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Create new user account in Test Environment",
+        "description": "",
+        "id": "register-new-user;create-new-user-account-in-test-environment",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d96.0.4664.110)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-MNGU0MIH\u0027, ip: \u002710.0.0.247\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\nasir\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56508}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 68886f7813da3a223e0148b256f05745\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)\r\n\tat core.Base.tearDown(Base.java:81)\r\n\tat stepDefinitions.Initializer.afterHooks(Initializer.java:29)\r\n",
+              "duration": 4111426900,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDefinitions.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 182258600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on Retail website",
+            "match": {
+              "location": "stepDefinitions.LoginStepDef.user_is_on_Retail_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 45964400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on Myaccount",
+            "match": {
+              "location": "stepDefinitions.LoginStepDef.user_click_on_Myaccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 809930700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on Register",
+            "match": {
+              "location": "stepDefinitions.RegisterStepDef.user_click_on_register()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 465208400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user fill registration form with below information",
+            "match": {
+              "location": "stepDefinitions.RegisterStepDef.user_fill_registration_form_with_below_information(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstName",
+                  "lastName",
+                  "email",
+                  "telephone",
+                  "password",
+                  "passwordConfirm",
+                  "subscribe"
+                ]
+              },
+              {
+                "cells": [
+                  "alex",
+                  "conor",
+                  "alex112233@gmail.com",
+                  "2021011122",
+                  "WrongPass",
+                  "WrongPass",
+                  "yes"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109073900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user agree to privacy and policy",
+            "match": {
+              "location": "stepDefinitions.RegisterStepDef.user_agree_to_privacy_and_policy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 298817400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click on continue button",
+            "match": {
+              "location": "stepDefinitions.RegisterStepDef.user_click_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath\u003d//h1[text()\u003d\u0027Your Account Has Been Created!\u0027]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-MNGU0MIH\u0027, ip: \u002710.0.0.247\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy21.getText(Unknown Source)\r\n\tat pageObjects.RegisterPageObject.getSuccessMessage(RegisterPageObject.java:96)\r\n\tat stepDefinitions.RegisterStepDef.user_should_see_successful_message(RegisterStepDef.java:57)\r\n\tat ✽.user should see successful message \u0027Your Account Has Been Created!\u0027(classpath:features/retailHome.feature:14)\r\n",
+              "duration": 7394958300,
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "user should see successful message \u0027Your Account Has Been Created!\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Your Account Has Been Created!\u0027",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefinitions.RegisterStepDef.user_should_see_successful_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegisterTest"
+          }
+        ]
+      }
+    ],
+    "name": "Register new user",
+    "description": "",
+    "id": "register-new-user",
+    "keyword": "Feature",
+    "uri": "classpath:features/retailHome.feature",
+    "tags": []
+  }
+]
