@@ -527,3 +527,10 @@
 2021-12-25 10:44:01,463 [main] INFO logger_File - user entered personal information [{firstName=alex, lastName=conor, email=alex112233@gmail.com, telephone=2021011122, password=WrongPass, passwordConfirm=WrongPass, subscribe=yes}]
 2021-12-25 10:44:01,692 [main] INFO logger_File - user clicked on privacy and policy checkbox
 2021-12-25 10:44:01,992 [main] INFO logger_File - user clicked on continue button
+2022-04-02 06:25:11,206 [main] INFO logger_File - Scenario Create new user account in Test Environment Started
+2022-04-02 06:25:25,049 [main] INFO logger_File - Actual Title is matching with expected title
+2022-04-02 06:25:25,545 [main] INFO logger_File - user clicked on MyAccount
+2022-04-02 06:25:26,284 [main] INFO logger_File - user clicked on Register
+2022-04-02 06:25:26,852 [main] INFO logger_File - user entered personal information [{firstName=alex, lastName=conor, email=alex112233@gmail.com, telephone=2021011122, password=WrongPass, passwordConfirm=WrongPass, subscribe=yes}]
+2022-04-02 06:25:27,177 [main] INFO logger_File - user clicked on privacy and policy checkbox
+2022-04-02 06:25:27,423 [main] INFO logger_File - user clicked on continue button
